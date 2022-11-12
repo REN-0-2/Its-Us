@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #e0fbfc;
@@ -17,5 +18,19 @@ h1{
     font-family: poppins;
     font-weight: 900;
     letter-spacing: 0.1rem;
-    color: #fcfb00;
+    color: #52796f;
+}
+.shesaid{
+    font-family: poppins;
+    color: #354f52;
+}
+.shesaid #title{
+    color: #000;
+    font-weight: 900;
+    font-style: italic;
+}
+.shesaid #heart{
+    color:red;
+    font-weight: 900;
+    font-size: 1.4rem;
 }
